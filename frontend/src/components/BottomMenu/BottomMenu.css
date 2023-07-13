@@ -1,0 +1,30 @@
+.botton-menu {
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  width: 200px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 5rem;
+  z-index: 2;
+}
+
+.modalContainer {
+  overflow: hidden;
+  position: fixed;
+  width: 70%;
+  z-index: 500;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalContaine.show{
+  width: 60%;
+  z-index: 500;
+}
+
+.modalContainer.hide{
+  max-height: 0;
+  transition: all 0.2s ease;
+  width: 60%;
+}
