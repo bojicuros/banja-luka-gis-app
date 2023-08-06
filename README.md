@@ -13,6 +13,8 @@ To set up the frontend part of the application, follow these steps:
 
 3. Run the following command to install the required dependencies:
 
+   npm install
+
 4. After the installation is complete, start the application using the following command:
 
 
@@ -27,6 +29,8 @@ To set up the backend part of the application, follow these steps:
 2. Open a terminal or command prompt and navigate to the backend directory.
 
 3. Run the following command to install the required dependencies:
+
+   npm install
 
 4. Once the installation is complete, start the backend server using the following command:
 
